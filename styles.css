@@ -1,3 +1,19 @@
+@font-face {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/arvo/v14/tDbD2oWUg0MKqScQ7Q.woff2)
+      format("woff2");
+}
+
+
+* {
+    background-color: rgb(1, 33, 105);
+    margin: 0;
+    font-family: Arvo;
+}
+
+
 .header{
     display: flex;
     height: 200px;
@@ -13,22 +29,33 @@
 
 img {
     max-width: 250px;
-    
     padding: 30px;
-}
-
-* {
-    background-color: rgb(1, 33, 105);
-    margin: 0;
 }
 
 p {
     padding: 50px;
     color: white;
+    font-weight: bold;
+    font-size: large;
     }
 
-button {
+.button {
     background-color: white;
+    width: 150px;
+    height: 50px;
+    color: blue;
+    border-radius: 10em;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.7s;
 }
 .content {
     display: flex;
