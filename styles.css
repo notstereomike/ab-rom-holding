@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    height: 200px;
+        align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.logo {
+    padding: 30px;
+}
+
+img {
+    max-width: 250px;
+    
+    padding: 30px;
+}
+
+* {
+    background-color: rgb(1, 33, 105);
+    margin: 0;
+}
+
+p {
+    padding: 50px;
+    color: white;
+    }
+
+button {
+    background-color: white;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
