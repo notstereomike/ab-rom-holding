@@ -8,7 +8,7 @@
 
 
 * {
-    background-color: rgb(1, 33, 105);
+    background-color: black;
     margin: 0;
     font-family: Arvo;
 }
@@ -17,7 +17,7 @@
 .header{
     display: flex;
     height: 200px;
-        align-items: center;
+    align-items: center;
     justify-content: center;
     justify-content: space-around;
     padding: 30px;
